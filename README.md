@@ -54,7 +54,7 @@ distribution inside each predicted chunk, but the boundary between adjacent
 chunks is often weakly constrained. This creates inter-chunk discontinuities
 that make long-horizon manipulation trajectories less smooth and less coherent.
 As shown above, previous approaches focus primarily on intra-chunk refinement,
-whereas **FocalPolicy** introduces a **Foresight Composite Objective (FCO)** to
+whereas **FocalPolicy** introduces a Foresight Composite Objective (FCO) to
 jointly preserve proximal precision and distal coherence across future chunks.
 This design directly targets the precision-foresight trade-off behind coherent
 long-horizon action generation.
@@ -75,7 +75,7 @@ accuracy.
 
 # 💻 Installation
 
-The full environment setup is documented in [INSTALL.md](INSTALL.md). The setup was tested with Python 3.8, CUDA 11.8, MuJoCo 2.1.0, and an NVIDIA 4090 GPU.
+The full environment setup is documented in [INSTALL.md](INSTALL.md). The setup was tested with Python 3.8, CUDA 11.8, and an NVIDIA 4090 GPU.
 
 # 📚 Data
 
