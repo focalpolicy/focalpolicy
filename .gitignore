@@ -1,0 +1,43 @@
+# Python cache/build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE and local tooling
+.vscode/
+.idea/
+.codex/
+.agents/
+
+# Logs and experiment outputs
+outputs/
+data/outputs/
+wandb/
+runs/
+logs/
+*.log
+
+# Datasets and generated demonstrations
+FocalPolicy/data/
+*.zarr/
+
+# Media generated during evaluation/training
+*.mp4
+*.avi
+*.mov
+
+# Native/compiler artifacts
+*.o
+*.a
+*.dylib
+*.dll
+
+# OS files
+.DS_Store
+Thumbs.db
