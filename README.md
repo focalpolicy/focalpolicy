@@ -112,6 +112,11 @@ python eval.py --config-name=focalpolicy.yaml \
   hydra.run.dir=/path/to/output_dir \
   training.device=cuda
 ```
+# 🤖 Real-World Experiments
+
+Beyond simulation, we provide code for real-world robot experiments, including teleoperation and data collection on a UR10e manipulator:
+
+[**HeQian2514/ur10e_manipulation**](https://github.com/HeQian2514/ur10e_manipulation) — A repository for real-world robot teleoperation and data collection.
 
 # 📝 Citation
 
